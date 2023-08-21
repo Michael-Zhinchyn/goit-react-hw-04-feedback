@@ -1,6 +1,6 @@
-import { OptionBtn } from './FeedbackOptions.styled';
+import { OptionBtn, StyledWrapper } from './FeedbackOptions.styled';
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
-  <div>
+  <StyledWrapper>
     {options.map(option => (
       <OptionBtn
         key={option}
@@ -10,5 +10,5 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
         {option}
       </OptionBtn>
     ))}
-  </div>
+  </StyledWrapper>
 );

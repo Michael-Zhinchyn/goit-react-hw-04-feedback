@@ -39,6 +39,10 @@ const stylesConfig = {
   },
 };
 
+export const StyledWrapper = styled.div`
+  margin-bottom: 12px;
+`;
+
 export const OptionBtn = styled.button`
   background-color: ${props =>
     stylesConfig[props.option]?.default.background || 'gray'};

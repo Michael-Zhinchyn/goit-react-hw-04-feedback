@@ -1,6 +1,8 @@
+import { StyledHeading } from './Section.styled';
+
 export const Section = ({ title, children }) => (
   <section>
-    <h2>{title}</h2>
+    <StyledHeading>{title}</StyledHeading>
     {children}
   </section>
 );
