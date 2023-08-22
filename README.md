@@ -1,4 +1,4 @@
-# REACT home-work 02 task 1 - Feedback
+# REACT home-work 04 task 1 - Feedback
 
 ### Create an application for collecting statistics. There are only three options for feedback: good, neutral and bad.
 
